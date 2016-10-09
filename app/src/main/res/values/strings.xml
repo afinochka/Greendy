@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">4H - ForHour</string>
+    <string name="registration">Зарегистрироваться</string>
+    <string name="login">Войти</string>
+    <string name="name">Имя</string>
+    <string name="password">Пароль</string>
+    <string name="email">Email</string>
+    <string name="phone">+375 XX XXX XX XX</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="address">Адрес, улица, город</string>
+
+    <string name="description">Fiat firmamentum in medio
+        aquanim et separet aquas ab aquis, quae superius sicut quae
+        inferius et quae iuferius sicut quae superius ad perpetranda
+        miracula rei unius. </string>
+
+    <string name="action_settings">Settings</string>
+</resources>

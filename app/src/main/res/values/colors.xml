@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00685e</color>
+    <color name="colorPrimaryDark">#757575</color>
+    <color name="colorAccent">#009688</color>
+    <color name="colorBackground">#cdd4dc</color>
+    <color name="text_color">#616161</color>
+    <color name="item_selected">#a7a7a7</color>
+
+    <color name="white">#fff</color>
+
+    <color name="background_search_bar">#f4f4f4</color>
+
+    <color name="blue_temp">#3c6ce6</color>
+    <color name="blue_dark">#2c4da3</color>
+
+    <color name="bright_yellow">#fffddf</color>
+
+    <color name="green_temp">#23A96E</color>
+    <color name="green_dark">#159204</color>
+    <color name="bright_green">#02D8B0</color>
+    <color name="button_green">#10a54a</color>
+</resources>

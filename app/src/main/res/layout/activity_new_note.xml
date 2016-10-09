@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_selector"
+        android:layout_marginBottom="10dp"
+        android:hint="Заголовок"
+        android:id="@+id/header"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:background="@drawable/edit_text_selector"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="textMultiLine"
+        android:hint="Описание"
+        android:ems="10"
+        android:id="@+id/description"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.30" />
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:src="@mipmap/ic_nothing"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_gravity="center_vertical"
+            android:text="Medium Text"
+            android:id="@+id/textView" />
+    </LinearLayout>
+
+    <EditText
+        android:background="@drawable/edit_text_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Адрес"
+        android:id="@+id/address"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="Выбрать время"
+        android:id="@+id/set_time_button"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавить объявление"
+        android:id="@+id/add_note_button"
+        android:layout_gravity="center_horizontal"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+</LinearLayout>
